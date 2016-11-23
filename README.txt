@@ -9,7 +9,6 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 == About ==
 Imitates classic windows folders and files views, but for wordpress posts
 
-Directory Explorer, Copyright (C) 2015 F5 Sites
 Directory Explorer theme is licensed under the GPL v3.0
 
 == Credit ==
@@ -24,6 +23,7 @@ Please post your questions in Questions & Answers page - http://www.franciscomat
 
 == Changelog ==
 = 2016.11 =
+* Renamed
 * Released to gitbub, improvements to public scrutinity
 
 = 0.1 =
