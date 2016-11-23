@@ -1,5 +1,5 @@
 {
-	"name": "f5sites/explorer-directory",
+	"name": "f5sites/directory-explorer",
 	"description": "Imitates classic windows folders and files views, but for wordpress posts (dw-minion child). WordPress F5 Sites DEV projects",
 	"version": "2016.11",
 	"type": "wordpress-theme",
