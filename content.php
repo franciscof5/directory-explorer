@@ -32,7 +32,8 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php if( ! has_post_format('quote') ) : ?><h2 class="entry-title"><a href="https://wordpress.org/plugins/<?php echo get_the_title(); ?>" target="_blank">/<?php the_title(); ?></a></h2><?php endif; ?>
+		<?php if( ! has_post_format('quote') ) : ?><?php /*<h2 class="entry-title"><a href="https://wordpress.org/plugins/<?php echo get_the_title(); ?>" target="_blank">/<?php the_title(); ?></a></h2><?php endif; ?>*/?>
+		<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2><?php endif; ?>
 	
 	</header>
 <div class="entry-tags">
